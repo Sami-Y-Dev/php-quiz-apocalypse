@@ -1,0 +1,47 @@
+body {
+    font-family: 'Courier New', Courier, monospace;
+    background: #1e1e1e;
+    color: red;
+    text-align: center;
+    padding: 20px;
+}
+
+header, footer {
+    background: #818181;
+    padding: 10px;
+    margin-bottom: 20px;
+    color: black;
+}
+
+main {
+    max-width: 600px;
+    margin: 50px;
+    margin-left: 33%;
+    background: #cfcfcf;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 1rem;
+    background-color: rgb(84, 0, 84);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: rgb(145, 0, 0);
+}
+
+input[type="radio"] {
+    margin-right: 10px;
+}
+
+label {
+    display: block;
+    margin: 10px 0;
+    text-align: left;
+}
