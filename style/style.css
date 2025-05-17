@@ -4,7 +4,7 @@ body {
     text-align: center;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
     padding: 20px;
-    background-image: url("assets/apocalypse-quizz.jpg");
+    background-image: url("../assets/apocalypse-quizz.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -64,4 +64,8 @@ label {
     display: block;
     margin: 10px 0;
     text-align: left;
+}
+
+audio {
+    display: none;
 }

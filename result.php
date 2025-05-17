@@ -1,6 +1,6 @@
 <?php
 session_start();
-require 'header.php';
+require 'templates/header.php';
 
 // Je récupère le score depuis la session
 $score = $_SESSION['score'] ?? 0;
@@ -34,4 +34,4 @@ session_destroy();
     <a href="index.php"><button>Tu veux retenter ?</button></a>
 </main>
 
-<?php require 'footer.php'; ?>
+<?php require 'templates/footer.php'; ?>

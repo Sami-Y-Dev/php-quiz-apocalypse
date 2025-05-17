@@ -1,4 +1,3 @@
-<p>Lancer l'ambiance appropriée !</p>
 <audio controls autoplay loop>
     <source src="assets/ambiance-postapo.mp3" type="audio/mpeg">
 </audio>

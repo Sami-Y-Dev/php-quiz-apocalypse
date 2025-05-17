@@ -19,24 +19,25 @@ L'objectif ? Tester si tu survivrais dans un monde post-apocalyptique, à traver
 
 ## Structure du projet
 
-/ (racine)
-
-├── index.php
-
-├── question.php
-
+/
+├── assets/
+│ ├── apocalypse-quizz.jpg
+│ ├── favicon-postapo.png
+│ ├── survivor.jpg
+│ └── ambiance-postapo.mp3
+├── src/
+├── style/
+│ └── style.css
+├── templates/
+│ ├── header.php
+│ └── footer.php
+├── composer.json
 ├── data.php
-
-├── result.php
-
 ├── functions.php
-
-├── style.css
-
-├── header.php
-
-├── footer.php
-
+├── index.php
+├── questions.php
+├── reponses.html
+├── result.php
 └── README.md
 
 ## Lancer le projet en local

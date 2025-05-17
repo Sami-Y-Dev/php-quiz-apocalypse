@@ -1,5 +1,5 @@
 <?php
-require 'header.php';
+require 'templates/header.php';
 ?>
 
 <main>
@@ -8,4 +8,4 @@ require 'header.php';
     <a href="question.php"><button>Attaquer le quizz</button></a>
 </main>
 
-<?php require 'footer.php'; ?>
+<?php require 'templates/footer.php'; ?>

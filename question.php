@@ -2,7 +2,7 @@
 session_start();
 require 'data.php';
 require 'functions.php';
-require 'header.php';
+require 'templates/header.php';
 
 // Initialisation pour la première question
 if (!isset($_GET['q'])) {
@@ -49,4 +49,4 @@ $current_question = $questions[$index];
     </form>
 </main>
 
-<?php require 'footer.php'; ?>
+<?php require 'templates/footer.php'; ?>
