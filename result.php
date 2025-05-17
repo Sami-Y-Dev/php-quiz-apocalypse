@@ -4,14 +4,15 @@ require 'header.php';
 
 // Je récupère le score depuis la session
 $score = $_SESSION['score'] ?? 0;
-$total = 5; 
+$total = 20;
 
 // Message personnalisé selon le score
-if ($score === 5) {
+if ($score >= 15) {
     $message = "Tu es un vrai survivor ! Tu pourrais mener une tribu !!!";
-} elseif ($score >= 3) {
+    echo '<img src="assets/survivor.jpg">';
+} elseif ($score >= 10) {
     $message = "Pas mal ! Tu ne mourras pas tout de suite… mais tu ne sauveras pas la civilisation ! ";
-} elseif ($score >= 1) {
+} elseif ($score >= 5) {
     $message = "Espérance de vie inférieur à 3 jours, il faut te former !";
 } else {
     $message = "Désolé… T’as confondu l’apocalypse avec Koh-Lanta. Paix à ton ame !";
@@ -27,6 +28,9 @@ session_destroy();
     <p><?= $message ?></p>
 
     <br>
+    <a href="reponses.html" target="_blank">
+        <button>Voir les réponses</button>
+    </a>
     <a href="index.php"><button>Tu veux retenter ?</button></a>
 </main>
 
